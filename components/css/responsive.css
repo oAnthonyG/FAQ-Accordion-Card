@@ -1,0 +1,43 @@
+@media screen and (min-width:400px){
+    .container{
+        width: 30em;
+    }
+
+    .container__img__woman{
+        left: 30%;
+    }
+}
+@media screen and (min-width:650px){
+    .container__img__woman{
+        left: 35%;
+    }
+}
+@media screen and (min-width:800px){
+.container__img__woman{
+    left: 40%;
+    top: 8%;
+}
+}
+
+@media screen and (min-width:1000px){
+    .container{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .container__box{
+        width: 50%;
+        margin-top: 2em;
+    }
+
+    .container__img__woman{
+        top: 32%;
+        left: 16%;
+        width: 40%;
+        height: 40%;
+        background: url(../../images/illustration-woman-online-desktop.svg) no-repeat url(../../images/bg-pattern-desktop.svg);
+        background-size: contain;
+    }
+
+}
